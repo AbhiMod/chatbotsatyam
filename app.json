@@ -1,0 +1,15 @@
+{
+    "name": "𝗖𝗛𝗔𝗧𝗕𝗢𝗧",    
+    "env": {
+        "BOT_TOKEN": {
+            "description": "𝐅𝐢𝐥𝐥 𝐘𝐨𝐮𝐫 𝐁𝐨𝐭 𝐓𝐨𝐤𝐞𝐧 𝐎𝐧𝐥𝐲",
+            "required": true,
+            "value": "6684745377:AAHem9qrZlDTDt1t-fjBwH8rSsaT6yrRSTk"
+        }              
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ]
+}
