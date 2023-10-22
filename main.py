@@ -17,7 +17,7 @@ MONGO_URL = "mongodb+srv://kuldiprathod2003:kuldiprathod2003@cluster0.wxqpikp.mo
 DATABASE_NAME = os.environ.get("DATABASE_NAME") 
 BOT_USERNAME = os.environ.get("BOT_USERNAME","Tisha_machine_bot")
 BOT_NAME = os.environ.get("BOT_NAME","Tisha")
-ADMINS = os.environ.get("ADMINS","5097836954","6204761408")
+ADMINS = os.environ.get("ADMINS","6204761408")
 
 bot = Client(
     "VickBot" ,
