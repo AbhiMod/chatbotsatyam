@@ -54,7 +54,7 @@ EMOJIOS = [
 ]
 # Start command to collect users
 @bot.on_message(filters.command(["start"]))
-async def start_command(client, message):
+async def start_command(client, m: message):
     # Get user ID
     user_id = message.from_user.id
 
