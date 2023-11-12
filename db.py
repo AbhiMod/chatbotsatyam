@@ -25,8 +25,8 @@ bot = Client(
 )
 
 # Connect to MongoDB
-MONGO_URL = "mongodb+srv://kuldiprathod2003:kuldiprathod2003@cluster0.wxqpikp.mongodb.net/?retryWrites=true&w=majority"
-DATABASE_NAME = "VickDb"
+MONGO_URL = "mongodb+srv://MissTisha:MissTisha@misstisha.eatdvt1.mongodb.net/?retryWrites=true&w=majority"
+DATABASE_NAME = "MissTisha"
 mongo_client = MongoClient(MONGO_URL)
 db = mongo_client[DATABASE_NAME]
 
