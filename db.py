@@ -13,7 +13,7 @@ from datetime import datetime
 # Initialize Pyrogram client
 API_ID = "25450075"
 API_HASH = "278e22b00d6dd565c837405eda49e6f2"
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "5894209648:AAF1waPORM1VIJ_J7XSTywlVf7JOoKOoBIU") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6684745377:AAFT0sUF1QlIyBlR09ekxSggdon9FxFcT_A") 
 AMBOT = ["6204761408", ""]
 AM = ["6204761408", ""]
 BOT_USERNAME = os.environ.get("BOT_USERNAME","Tisha_machine_bot")
