@@ -26,7 +26,6 @@ bot = Client(
     bot_token = BOT_TOKEN
 )
 
-
 async def is_admins(chat_id: int):
     return [
         member.user.id
@@ -37,8 +36,7 @@ async def is_admins(chat_id: int):
 
 
 EMOJIOS = [ 
-      "🌿",
-      "⚡",
+      "═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══",
 ]
       
 START = f"""
@@ -50,17 +48,22 @@ async def restart(client, m: Message):
     accha = await m.reply_text(
                 text = random.choice(EMOJIOS),
     )
-    await asyncio.sleep(1)
-    await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐢𝐧𝐠..")
     await asyncio.sleep(0.1)
-    await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐢𝐧𝐠...")
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪")
     await asyncio.sleep(0.1)
-    await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐢𝐧𝐠....")
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║\n║\n║\n║\n║\n║")
     await asyncio.sleep(0.1)
-    await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐞𝐝.✓")
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║\n║\n║\n║\n║\n║\n╚══════ஜ۩۞۩ஜ═════╝")
+    await asyncio.sleep(0.1)
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║➣\n║\n║➣\n║\n║➣\n║\n╚══════ஜ۩۞۩ஜ═════╝")
     await asyncio.sleep(0.2)
-    await accha.edit("𝐒𝐭𝐚𝐫𝐭")
-       
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║➣ @THE_VIP_BOY\n║\n║➣\n║\n║➣\n║\n╚══════ஜ۩۞۩ஜ═════╝")
+    await asyncio.sleep(0.2)
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║➣ @THE_VIP_BOY\n║\n║➣ @TG_FRIENDSS\n║\n║➣\n║\n╚══════ஜ۩۞۩ஜ═════╝")
+    await asyncio.sleep(0.2)
+    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║➣ @THE_VIP_BOY\n║\n║➣ @TG_FRIENDSS\n║\n║➣ @VIP_CREATORS\n║\n╚══════ஜ۩۞۩ஜ═════╝")
+     
+
 @bot.on_message(
     filters.command(["chatbot off", f"chatbot@{BOT_USERNAME} off"], prefixes=["/", ".", "?", "-"])
     & ~filters.private)
@@ -332,6 +335,5 @@ async def vickprivatesticker(client: Client, message: Message):
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
 
-print(f"🎄 𝗖𝗛𝗔𝗧𝗕𝗢𝗧 𝗜𝗦 𝗦𝗧𝗔𝗥𝗧𝗘𝗗..🎄 ")      
+print(f"🎄𝗩𝗜𝗣 𝗖𝗛𝗔𝗧𝗕𝗢𝗧 𝗜𝗦 𝗦𝗧𝗔𝗥𝗧𝗘𝗗 𝗚𝗢 𝗔𝗡𝗗 𝗘𝗡𝗝𝗢𝗬🎄 ")      
 bot.run()
-#@ AMBOT
