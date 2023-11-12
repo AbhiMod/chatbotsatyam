@@ -54,7 +54,7 @@ EMOJIOS = [
 ]
 # Start command to collect users
 @bot.on_message(filters.command(["start"]))
-async def start_command(client, m: message):
+async def start_command(client, message):
     # Get user ID
     user_id = message.from_user.id
 
@@ -63,24 +63,8 @@ async def start_command(client, m: message):
         # If not, add the user to the database
         db["users"].insert_one({"user_id": user_id})
 
-    accha = await m.reply_text(
-                text = random.choice(EMOJIOS),
-    )
-    await asyncio.sleep(0.1)
-    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪")
-    await asyncio.sleep(0.1)
-    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║\n║\n║\n║\n║\n║")
-    await asyncio.sleep(0.1)
-    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║\n║\n║\n║\n║\n║\n╚══════ஜ۩۞۩ஜ═════╝")
-    await asyncio.sleep(0.1)
-    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║➣\n║\n║➣\n║\n║➣\n║\n╚══════ஜ۩۞۩ஜ═════╝")
-    await asyncio.sleep(0.2)
-    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║➣ @AMBOTYT\n║\n║➣\n║\n║➣\n║\n╚══════ஜ۩۞۩ஜ═════╝")
-    await asyncio.sleep(0.2)
-    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║➣ @AMBOTYT\n║\n║➣ @AM_YTSUPPORT\n║\n║➣\n║\n╚══════ஜ۩۞۩ஜ═════╝")
-    await asyncio.sleep(0.2)
-    await accha.edit("╔═══❰𝐖𝐄𝐋𝐂𝐎𝐌𝐄❱═══❍⊱❁۪۪\n║\n║➣ @AMBOTYT\n║\n║➣ @AM_YTSUPPORT\n║\n║➣ @satyamnetwork\n║\n╚══════ஜ۩۞۩ஜ═════╝")
-     
+    await message.reply_text("Welcome to the broadcast bot!")
+
 
 # Command to send a broadcast to all users and groups
 @bot.on_message(filters.command(["gcast"]))
