@@ -24,7 +24,10 @@ mongo_client = MongoClient(MONGO_URL)
 db = mongo_client[DATABASE_NAME]
 START_PHOTOS = [
     "https://graph.org/file/be8d60272e859df723cbb.jpg",
-    "https://graph.org/file/48c01923362dbc03fb5ff.jpg",
+    "https://graph.org/file/252742c9f9dfe1c056894.jpg",
+    "https://graph.org/file/c0c800c2e4a5b72533691.jpg",
+    "https://graph.org/file/6a13cf043845b927e8cb2.jpg",
+    "https://graph.org/file/1f7906f11316e5685b112.jpg",
 ]
 
 bot = Client(
