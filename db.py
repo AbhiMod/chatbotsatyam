@@ -1,6 +1,7 @@
 from pyrogram import Client, filters
 from pymongo import MongoClient
 from pyrogram.types import *
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import requests
 import random
 import os
@@ -63,7 +64,16 @@ async def start_command(client, message):
         # If not, add the user to the database
         db["users"].insert_one({"user_id": user_id})
 
-    await message.reply_text("Welcome to the broadcast bot!")
+    keyboard = InlineKeyboardMarkup([
+        [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+        ],
+        [
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/satyamnetwork"),
+            InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/AM_YTSUPPORT"),
+        ],
+    ])
+
+    await message.reply_text(f"Welcome to the {BOT_NAME} bot!", reply_markup=keyboard)
 
 
 # Command to send a broadcast to all users and groups
