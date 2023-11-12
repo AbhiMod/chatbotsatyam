@@ -13,7 +13,7 @@ from datetime import datetime
 API_ID = "25450075"
 API_HASH = "278e22b00d6dd565c837405eda49e6f2"
 BOT_TOKEN = os.environ.get("BOT_TOKEN","6684745377:AAFT0sUF1QlIyBlR09ekxSggdon9FxFcT_A") 
-MONGO_URL = "mongodb+srv://MissTisha:MissTisha@misstisha.eatdvt1.mongodb.net/?retryWrites=true&w=majority"
+MONGO_URL = "mongodb+srv://kuldiprathod2003:kuldiprathod2003@cluster0.wxqpikp.mongodb.net/?retryWrites=true&w=majority"
 DATABASE_NAME = os.environ.get("DATABASE_NAME","VickDb") 
 BOT_USERNAME = os.environ.get("BOT_USERNAME","Tisha_machine_bot")
 BOT_NAME = os.environ.get("BOT_NAME","𝙼𝚒𝚜𝚜 𝚃𝚒𝚜𝚑𝚊 💞")
