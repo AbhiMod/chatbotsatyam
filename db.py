@@ -14,8 +14,8 @@ API_ID = "25450075"
 API_HASH = "278e22b00d6dd565c837405eda49e6f2"
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "5894209648:AAF1waPORM1VIJ_J7XSTywlVf7JOoKOoBIU") 
 AMBOT = "6204761408"
-BOT_USERNAME = os.environ.get("BOT_USERNAME","Defulter4_bot")
-BOT_NAME = os.environ.get("BOT_NAME","Tisha")
+BOT_USERNAME = os.environ.get("BOT_USERNAME","Tisha_machine_bot")
+BOT_NAME = os.environ.get("BOT_NAME","𝙼𝚒𝚜𝚜 𝚃𝚒𝚜𝚑𝚊 💞")
 
 bot = Client(
     "VickBot" ,
@@ -68,12 +68,21 @@ async def start_command(client, message):
         [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
-            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/satyamnetwork"),
-            InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/AM_YTSUPPORT"),
+            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ 💞", url="https://t.me/satyamnetwork"),
+            InlineKeyboardButton("💌 ᴄʜᴀᴛ ɢʀᴏᴜᴘ", url="https://t.me/+eSTzpugepEMwNDBl"),
         ],
     ])
 
-    await message.reply_text(f"Welcome to the {BOT_NAME} bot!", reply_markup=keyboard)
+    await message.reply_text(f"""" 
+๏ ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME}
+
+➻ ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.
+➻ ᴜsᴀɢᴇ /chatbot [ᴏɴ/ᴏғғ]
+➻ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛ-ʙᴏᴛ.
+➻ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ʀᴇᴘʟɪᴇs ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴛᴏ ᴀ ᴜsᴇʀ.
+➻ ʜᴇʟᴘs ʏᴏᴜ ɪɴ ᴀᴄᴛɪᴠᴀᴛɪɴɢ ʏᴏᴜʀ ɢʀᴏᴜᴘs.
+➻ ᴡʀɪᴛᴛᴇɴ ɪɴ [ᴘʏᴛʜᴏɴ](https://www.python.org) ᴡɪᴛʜ [ᴍᴏɴɢᴏ-ᴅʙ](https://www.mongodb.com) ᴀs ᴀ ᴅᴀᴛᴀʙᴀsᴇ
+➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʜᴇʟᴩ ᴀɴᴅ ᴀʙᴏᴜᴛ [ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://t.me/AM_YTBOTT)""", reply_markup=keyboard)
 
 
 # Command to send a broadcast to all users and groups
