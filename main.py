@@ -12,11 +12,11 @@ from datetime import datetime
 
 API_ID = "25450075"
 API_HASH = "278e22b00d6dd565c837405eda49e6f2"
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
+BOT_TOKEN = os.environ.get("BOT_TOKEN","5894209648:AAF1waPORM1VIJ_J7XSTywlVf7JOoKOoBIU") 
 MONGO_URL = "mongodb+srv://kuldiprathod2003:kuldiprathod2003@cluster0.wxqpikp.mongodb.net/?retryWrites=true&w=majority"
-DATABASE_NAME = os.environ.get("DATABASE_NAME") 
-BOT_USERNAME = os.environ.get("BOT_USERNAME","Tisha_machine_bot")
-BOT_NAME = os.environ.get("BOT_NAME","Tisha")
+DATABASE_NAME = os.environ.get("DATABASE_NAME","VickDb") 
+BOT_USERNAME = os.environ.get("BOT_USERNAME","Defulter4_bot")
+BOT_NAME = os.environ.get("BOT_NAME","Defulter4_bot")
 ADMINS = os.environ.get("ADMINS","6204761408")
 
 bot = Client(
@@ -332,6 +332,6 @@ async def vickprivatesticker(client: Client, message: Message):
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
 
-print(f"🎄 𝗖𝗛𝗔𝗧𝗕𝗢𝗧 𝗜𝗦 𝗦𝗧𝗔𝗥𝗧𝗘𝗗 𝗚𝗢 𝗔𝗡𝗗 𝗙𝗨𝗖𝗞🎄 ")      
+print(f"🎄 𝗖𝗛𝗔𝗧𝗕𝗢𝗧 𝗜𝗦 𝗦𝗧𝗔𝗥𝗧𝗘𝗗..🎄 ")      
 bot.run()
-#@ Mr.Daxx
+#@ AMBOT
