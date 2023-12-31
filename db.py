@@ -14,8 +14,8 @@ from datetime import datetime
 API_ID = "25450075"
 API_HASH = "278e22b00d6dd565c837405eda49e6f2"
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "6684745377:AAEYXB3zUT-VegLlG1rqKnUdJukAPaXFUnk") 
-AMBOT = ["6204761408", ""]
-AM = ["6204761408", ""]
+AMBOT = ["5360305806", ""]
+AM = ["5360305806", ""]
 BOT_USERNAME = os.environ.get("BOT_USERNAME","Tisha_machine_bot")
 BOT_NAME = os.environ.get("BOT_NAME","𝙼𝚒𝚜𝚜 𝚃𝚒𝚜𝚑𝚊 💞")
 MONGO_URL = "mongodb+srv://MissTisha:MissTisha@misstisha.eatdvt1.mongodb.net/?retryWrites=true&w=majority"
